@@ -1,0 +1,26 @@
+{
+  "name": "engineering-principles",
+  "version": "1.0.0",
+  "description": "Universal software engineering principles for AI-assisted development. Applicable to any tech stack, language, and framework.",
+  "author": "wkstudy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wkstudy/engineering-principles"
+  },
+  "keywords": [
+    "ai",
+    "coding-principles",
+    "best-practices",
+    "software-engineering",
+    "comate-skill",
+    "claude",
+    "architecture",
+    "design-patterns"
+  ],
+  "homepage": "https://github.com/wkstudy/engineering-principles#readme",
+  "bugs": {
+    "url": "https://github.com/wkstudy/engineering-principles/issues"
+  },
+  "main": "SKILL.md"
+}
