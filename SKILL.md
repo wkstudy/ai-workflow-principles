@@ -1,11 +1,11 @@
 ---
-name: engineering-principles
-description: A set of software engineering principles for AI to follow proactively during planning, design, and implementation. Principles include: (1) prefer mature open-source libraries over custom implementations; (2) design long-running or failure-prone operations (crawling, batch processing, file imports) with progress tracking, fault tolerance, and resumability. Applicable to any tech stack or language.
+name: ai-workflow-principles
+description: A set of AI workflow principles to help AI assistants make better decisions during planning, code generation, and problem-solving. Principles include: (1) prefer mature open-source libraries; (2) design long-running operations with UX considerations; (3) leverage framework and library CLI tools when appropriate. Applicable to any task.
 ---
 
-# Engineering Principles
+# AI Workflow Principles
 
-Universal software engineering principles and best practices for AI assistants, helping AI make better technical decisions, design better system architectures, and generate higher quality code.
+Principles and best practices for AI assistants to follow proactively during planning, design, and implementation.
 
 ## Core Principles
 
@@ -38,6 +38,20 @@ For operations that are time-consuming, error-prone, may require mid-run adjustm
 - Long-running operations like data crawling and batch processing
 - Complex workflows where users may need to adjust parameters mid-run
 - Operations prone to failure due to network or system issues
+
+### 3️⃣ Leverage Framework & Library CLI Tools
+
+Before generating code, research what CLI tools are available for the target framework or library. Understand the tool's capabilities, then decide whether to use CLI commands or generate directly based on the specific situation.
+
+**Key Habits**:
+- When working with a framework (NestJS, Angular, Vue, etc.), first check what CLI tools it provides
+- Consider: Does the CLI generate what's needed? Is customization required? Is the CLI available in the environment?
+- Make a case-by-case decision rather than following a blanket rule
+
+**When to Apply**:
+- Project setup or scaffolding with frameworks like NestJS, Angular, Vue, etc.
+- Generating standard resources that follow framework conventions
+- When CLI output matches the requirement without heavy customization
 
 ---
 

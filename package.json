@@ -1,15 +1,16 @@
 {
-  "name": "engineering-principles",
-  "version": "1.0.0",
-  "description": "Universal software engineering principles for AI-assisted development. Applicable to any tech stack, language, and framework.",
+  "name": "ai-workflow-principles",
+  "version": "2.0.0",
+  "description": "AI workflow principles to help AI assistants make better decisions during planning, code generation, and problem-solving. Applicable to any tech stack, language, and framework.",
   "author": "wkstudy",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wkstudy/engineering-principles"
+    "url": "https://github.com/wkstudy/ai-workflow-principles"
   },
   "keywords": [
     "ai",
+    "workflow",
     "coding-principles",
     "best-practices",
     "software-engineering",
@@ -18,9 +19,9 @@
     "architecture",
     "design-patterns"
   ],
-  "homepage": "https://github.com/wkstudy/engineering-principles#readme",
+  "homepage": "https://github.com/wkstudy/ai-workflow-principles#readme",
   "bugs": {
-    "url": "https://github.com/wkstudy/engineering-principles/issues"
+    "url": "https://github.com/wkstudy/ai-workflow-principles/issues"
   },
   "main": "SKILL.md"
 }
