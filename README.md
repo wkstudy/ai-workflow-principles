@@ -26,11 +26,6 @@ Principles and best practices for AI assistants to follow proactively during pla
 npx skills add wkstudy/ai-workflow-principles
 ```
 
-#### Comate
-
-```bash
-comate skill install https://github.com/wkstudy/ai-workflow-principles
-```
 
 ### License
 
@@ -56,11 +51,6 @@ comate skill install https://github.com/wkstudy/ai-workflow-principles
 npx skills add wkstudy/ai-workflow-principles
 ```
 
-#### Comate
-
-```bash
-comate skill install https://github.com/wkstudy/ai-workflow-principles
-```
 
 ### License
 
